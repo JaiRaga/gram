@@ -15,6 +15,15 @@ const styles = StyleSheet.create({
     borderColor: 'white',
     resizeMode: 'cover',
   },
+  headerTitle: {
+    color: '#18978F',
+    fontSize: 18,
+    fontStyle: 'italic',
+    fontWeight: 'bold',
+    position: 'absolute',
+    left: 19,
+    bottom: 5,
+  },
   iconsContainer: {
     flexDirection: 'row',
   },
@@ -31,11 +40,11 @@ const styles = StyleSheet.create({
     borderRadius: 9,
     justifyContent: 'center',
     alignItems: 'center',
-    zIndex: 100
+    zIndex: 100,
   },
   unreadBadgeText: {
     color: '#ffffff',
-    fontWeight: "600"
+    fontWeight: '600',
   },
 });
 

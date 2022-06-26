@@ -13,6 +13,7 @@ const Header = () => {
           style={styles.logo}
           source={require('../../../assets/gram-logo.jpeg')}
         />
+        {/* <Text style={styles.headerTitle}>Gram</Text> */}
       </TouchableOpacity>
       {/* Icons container */}
       <View style={styles.iconsContainer}>
