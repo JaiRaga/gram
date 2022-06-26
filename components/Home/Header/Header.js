@@ -33,6 +33,9 @@ const Header = () => {
           />
         </TouchableOpacity>
         <TouchableOpacity>
+          <View style={styles.unreadBadge}>
+            <Text style={styles.unreadBadgeText}>{13}</Text>
+          </View>
           <MaterialCommunityIcons
             style={styles.icon}
             name="message-badge-outline"
